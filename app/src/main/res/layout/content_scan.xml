@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mbds.nfc.Scan"
+    tools:showIn="@layout/activity_scan"
+    android:background="@color/md_blue_500">
+
+    <TextView
+        android:id="@+id/scan_text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_text"
+
+        android:textAlignment="center"
+        android:background="@color/md_blue_500"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/md_white_1000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nfcscantag"
+        android:contentDescription="@string/content_tag_description"
+        android:id="@+id/imageView2"
+        android:background="@color/md_blue_300"
+        android:layout_below="@+id/scan_text_home"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

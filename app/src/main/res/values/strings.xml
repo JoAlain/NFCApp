@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_register">Veuillez saisir vos information</string>
+    <string name="phone">Téléphone portable</string>
+    <string name="text_register">S\'enregistrer</string>
+    <string name="title_login">Merci de vous connecter pour acceder à l\'appication</string>
+    <string name="action_sign_in_short">Se connecter</string>
+    <string name="reset_password">Mot de passe oublié ?</string>
+    <string name="text_bienvenue">Veuillez selectionner "s'enregistrer" pour créer un compte ou "se connecter" si vous avez déjà un</string>
+    <string name="app_name">G-PARK</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="about">Application conçu et développé par Joë Alain Tiarilala</string>
+    <string name="action_about">À propos</string>
+    <string name="website">jou.com</string>
+    <string name="github">Mail: rjoealain@gmail.com</string>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>selection</item>
+        <item>Photos</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What\'s Hot</item>
+        <item>Log out</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_profile</item>
+    </array>
+    <string name="title_activity_news_detail">New Details</string>
+    <string name="title_activity_help">Aide</string>
+
+    <string-array name="drawer">
+        <item>@string/health</item>
+        <item>@string/doctor</item>
+    </string-array>
+
+    <string name="health">Inspection</string>
+    <string name="doctor">Rechercher une personne</string>
+
+
+    <array name="drawerIcons">
+        <item>@drawable/logologin</item>
+        <item>@drawable/logologin</item>
+    </array>
+    <string name="prompt_email">Utilisateur</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_create_account">Créer un compte</string>
+    <string name="invalid_email">Adresse mail invalid</string>
+    <string name="invalid_password">Mot de passe trop court</string>
+    <string name="incorrect_password">Mot de passe incorrect</string>
+    <string name="field_required">Champ requis</string>
+    <string name="title_activity_login">Nom Utilisateur</string>
+    <string name="voir_compte">Voir mon Profil</string>
+
+    <string name="help1title">Scan</string>
+    <string name="help1">Pour commencer, il vous suffit de scanner une carte taguer NFC</string>
+
+    <string name="help2title">Information</string>
+    <string name="help2">Après le scan, vous trouverez tous les informations relatives au possesseur de la carte</string>
+
+    <string name="help3title">Sanction</string>
+    <string name="help3">Les contrôleurs pourront sanctionner les profils qui ne sont pas en règle</string>
+
+    <string name="help4title">Avis de recherche</string>
+    <string name="help4">Les personnes recherchées seront aussi détécté </string>
+
+    <string name="help5title">Arrestation</string>
+    <string name="help5">Cela facilitera les arrestations et le maintient de l\'ordre</string>
+
+    <string name="skip">  </string>
+    <string name="activatenfc">Veuillez activer le NFC du smartphone</string>
+
+    <string name="changelanguage">Version Malgache</string>
+    <string name="title_activity_infoperson">infoperson</string>
+
+
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+    <string name="scan_text">Veillez scanner un TAG </string>
+    <string name="content_tag_description">Scan NFC TAG</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+    <string name="title_activity_scan">Scan</string>
+    <string name="title_activity_liste">ListeActivity</string>
+</resources>

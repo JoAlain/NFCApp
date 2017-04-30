@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <!-- Framelayout to display Fragment DEtail Music -->
+    <Button
+        android:id="@+id/buttonShowDropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_alignParentTop="true"
+
+        android:text="Text 1" />
+    <Button
+        android:id="@+id/buttonShowDropDownGeneration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonShowDropDown"
+        android:text="Text 2" />
+    <ImageView
+        android:id="@+id/searchIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_profile"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+    <FrameLayout
+        android:id="@+id/frame_container_detail_music"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+
+        android:id="@+id/progress_bar_music_list"
+        android:gravity="center_horizontal"/>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+
+        android:listSelector="@drawable/list_row_selector"
+        android:layout_below="@+id/buttonShowDropDown" />
+
+
+    <TextView
+        android:id="@+id/etatData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/md_red_500_25"
+
+        android:textSize="16dp"
+        android:text=""/>
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:textSize="19dp"
+        android:text=""/>
+
+
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+
+        android:id="@+id/progress_bar_load_more_list"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"/>
+
+
+
+</RelativeLayout>

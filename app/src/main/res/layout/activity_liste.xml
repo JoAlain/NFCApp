@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_blue_500"
+    android:fitsSystemWindows="true"
+    tools:context="mbds.nfc.activity.ListActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <FrameLayout
+            android:id="@+id/statusBar4000"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/statusBarHeight"
+            android:background="@color/md_blue_800"/>
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@+id/statusBar"
+            android:background="@color/md_blue_900"
+            android:translationZ="4dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <FrameLayout
+            android:id="@+id/statusBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/statusBarHeight"
+            android:background="@color/md_blue_700"
+            android:translationZ="4dp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_liste" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
